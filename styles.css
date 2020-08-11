@@ -1,5 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Aldrich");
+
+*{
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body{
+  font-family: "Aldrich";
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+q{
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+/*
 footer {
-  background-color: powderblue;
+  background-color: #FF00AA;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 #FF00FFAA, 0 12px 40px 0 #FF00FFAA;
   fontsize: 5em;
   text-align: center;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}*/
+
+header {
+  padding: 30px;
+  text-align: center;
+  background: white;
 }
+
+header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  border-radius: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background: #AAA;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+time {
+  font-style: italic;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
