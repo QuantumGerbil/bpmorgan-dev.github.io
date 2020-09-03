@@ -1,188 +1,294 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-<title>bpmorgan-dev</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" media="screen" href="styles.css" />
-<script src="https://kit.fontawesome.com/20c891894c.js" crossorigin="anonymous"></script>
-<style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BPMorgan-dev</title>
+    <script src="https://kit.fontawesome.com/20c891894c.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <style>
+body{
+  background-color: #D9EBF2;
+  font-family: 'Aldrich';
+  font-size: 18px;
+}
 
-</style>
-</head>
-<body>
+main{
+  margin: 0 25% 0 25%;
+  background-color: #437589;
+  border-radius: 16px;
+}
 
-<section id="page">
-  <header>
-    <h2 id="logo">LOGO</h2>
-  </header>
-  <nav>
-      <ul class="nodecor">
-        <li class="text-large"><a href="index.html">About</a></li>
-        <li class="text-large"><a href="#">Portfolio</a></li>
-        <li class="text-large"><a href="#">Blog</a></li>
-      </ul>
-        <button class="contact"><span style="font-size: 1.5em; padding-right: 5px;" class="far fa-envelope"></span>Contact Me</button>
-    </nav>
-  <main>
-    <article style="column-count: 2">
-      <!-- Left Column -->
-      <div class="card">
-          <div class="fakeimg" style="height:400px;">Image</div>
-          <!--<img src="" style="width:100%" alt="Avatar">-->
-          <div class="card">
-            <h2>Bryan Morgan</h2>
-          </div>
-        </div>
-        <div class="card">
-          <p><i class="fas fa-briefcase fa-fw margin-right text-large"></i>Systems Admin</p>
-          <p><i class="fas fa-home fa-fw margin-right text-large"></i>Alton, IL, USA</p>
-          <p><i class="fas fa-envelope fa-fw margin-right text-large"></i>bpmorgan@pm.me</p>
-          <p><i class="fas fa-phone fa-fw margin-right text-large"></i>(619) 325-7199</p>
-          <hr>
+hr {
+  border-top: 5px dotted #D9EBF2;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
 
-          <p class="text-large"><b><i class="fas fa-asterisk fa-fw margin-right"></i>Skills</b></p>
-          <p>C++</p>
-          <div class="skill">
-            <div style="width:50%">50%</div>
-          </div>
-          <p>HTML5</p>
-          <div class="skill">
-            <div style="width:25%">25%</div>
-          </div>
-          <p>CSS3</p>
-          <div class="skill">
-            <div style="width:25%">25%</div>
-          </div>
-          <p>Photoshop</p>
-          <div class="skill">
-            <div style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="skill">
-            <div style="width:80%">80%</div>
-          </div>
-          <p>Blender 3D</p>
-          <div class="skill">
-            <div style="width:60%">60%</div>
-          </div>
-          <br>
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
 
-          <p class="text-large"><b><i class="fas fa-globe fa-fw margin-right color-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="skill">
-            <div style="height:24px;width:100%"></div>
-          </div>
-          <p>Mandarin</p>
-          <div class="skill">
-            <div style="height:24px;width:25%"></div>
-          </div>
-          <p>German</p>
-          <div class="skill">
-            <div style="height:24px;width:25%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
+h1{
+  color: #15102E;
+  font-size: 2.5em;
+}
 
-      <div class="card color-white margin-bottom">
-        <h2 class="color-text-grey padding-16"><i class="fas fa-suitcase fa-fw margin-right text-xxlarge color-text-teal"></i>Work Experience</h2>
-        <div class="card">
-          <h5 class="opacity"><b>Systems Administrator/JWICS Technician / TEKsystems Inc</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>Apr 2020 - <span class="current-badge">Current</span></h6>
-          <p><li>Schedule and monitor system backups</li>
-             <li>Utilize VM Horizon 7 for virtual server monitoring and maintenance.</li>
-             <li>Answer calls from clients and provide answers or start troubleshooting process.</li>
-             <li>Create and manage client accounts on NIPR, SIPR, and JWICS networks.</li>
-             <li>Manage distribution lists and security groups.</li>
-             <li>Provide troubleshooting for Microsoft Windows 10 and Microsoft Server 2016 based systems.</li></ul></p>
-          <hr>
-        </div>
-        <div class="card">
-          <h5 class="opacity"><b>Environmental Science Laboratory Analyst  / Teklabs Inc.</b></h5>
-          <h6 class="color-text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Sep 2019 - Dec 2019</h6>
-          <p><ul><li>Performed Total Organic Halide (TOX) and Adsorbable Organic Halide (EOX) analysis on water and soil samples.</li></ul></p>
-          <hr>
-        </div>
-        <div class="card">
-          <h5 class="opacity"><b>Operations and Assistant Contract Technical Representative / Naval Operational Support Command Kansas City</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>Apr 2016 - June 2019</h6>
-          <p><ul><li>Tracked Navy Reserve Force training objectives for 300+ military members to assist in creation of training plans.</li>
-                 <li>Developed access databases and spreadsheets to assist in improving efficiency in future training.</li>
-                 <li>Utilized HP Electronic Records Manager to efficiently store records and official correspondence.</li>
-                 <li>Monitored Government Travel Credit Card accounts for 300+ military members to ensure proper use of Department of Defense (DOD) funds.</li>
-                 <li>Applied DOD travel and funding regulations to military member's order requests to prevent misuse of funds and reduce costs.</li>
-                 <li>Provided tier 1 support for computers and equipment connected to the Navy and Marine Corps Intranet (NMCI) network and maintained military member's access to the NMCI network.</li>
-                 <li>Responsible for designing content and functionality of NOSC Kansas City Sharepoint webpage.</li>
-                 <li>Responsible for conducting annual Sexual Assault Response and Prevention (SAPR) training.</li>
-                 <li>Responsible for ensuring the commanding officer follows DOD regulations in the event of a SAPR related incident involving one or more military members.</li>
-                 <li>Created training materials for commonly used websites, computer tasks, and software used.</li>
-             </ul>
-           </p><hr>
-        </div>
-        <div class="card">
-          <h5 class="opacity"><b>Navigator and Damage Control Petty Officer / US Navy</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>July 2014 - Apr 2016</h6>
-          <p><ul><li>Created and reviewed navigation plans prior to getting underway.</li>
-                 <li>Ensured all charts onboard were up to date with the latest notice to mariners and local notice to mariners.</li>
-                 <li>Operated and maintained fire-fighting and dewatering equipment to include handheld CO2 fire extinguisher bottles, watertight doors and hatches, engine-room halon fire extinguishers, personal firefighting equipment and P100 dewatering pump.</li>
-                 <li>Conducted regular training for 25+ members of the military on firefighting and dewatering procedures. Ensured that all military members met or exceeded training standards.</li>
-                 <li>Accountable for safe navigation of assigned LCU during amphibious operations. Ensured mission was met in a safe and timely manner.</li>
-                 <li>Provided daily mission briefings to the commanding officer along with developing powerpoint slides and visuals for use in each days briefings.</li>
-             </ul>
-          </p><hr>
-        </div>
-        <div class="card">
-          <h5 class="opacity"><b>Quartermaster / US Navy</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>Sep 2012 - July 2014</h6>
-          <p><ul><li>Stood watch as assistant to officer of the deck and to the navigator; Served as ship's steerman; performed ship control, navigation, and bridge watch duties; advised on ship ceremonies and served as the ship weather observer.</li>
-                 <li>Ensured all charts onboard were up to date with the latest notice to mariners and local notice to mariners.</li>
-                 <li>Inventoried and procured nautical charts and publications; used and corrects sailing directions, light lists, coastal pilots, and related publications and charts; used basic course plotting instruments, lead line, depth sounder, and compass; identified aids to navigation; handled plain language radio communications and visual communications; maintained compass record book and weather observation sheet and used applied mathematics, algebra, and trigonometry procedures. Used Coast Guard publications concerning nautical rules of the road, maneuvering board, and relative bearings; selected charts for voyage planning; determined danger angles and danger bearings; determined ship's position by celestial observations; recognized the significance of dew point, relative humidity, temperature, atmospheric pressure, wind force and direction, cloud formation, and sea state in general weather forecasting; supervised bridge personnel; inventoried installed equipment and spare parts; ordered repair parts and tools; used computers for word processing, spreadsheets, and database management.</li>
-                 <li>Educated 3 subordinate quartermasters in job skills improving overall work efficiency and improving their promotion chances.</li>
-             </ul>
-          </p><hr>
-        </div>
-        <div class="card">
-          <h5 class="opacity"><b>Deck Seaman / US Navy</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>Feb 2011 - Sep 2012</h6>
-          <p><ul><li>Maintained ship's compartments, decks, deck machinery, and equipment, external structure, lines, and riggings.</li>
-                 <li>Stood deck watches, such as helmsman, lookout, and messenger watches underway.</li>
-                 <li>Stood pier sentry, fire security, anchor, and other special watches in port.</li>
-                 <li>Manned and operated small boats, booms, cranes, and winches.</li>
-                 <li>Shipboard damage control and fire support.</li>
-             </ul>
-          </p><br>
-        </div>
-      </div>
+h2{
+  color: #563FBB;
+}
 
-      <div class="card color-white margin-bottom">
-        <h2 class="color-text-grey padding-16"><i class="fas fa-award fa-fw margin-right text-xxlarge color-text-teal"></i>Certifications</h2>
-        <div class="card">
-          <h5 class="opacity"><b>COMPTia Security+ CE</b></h5>
-          <h6 class="color-text-teal"><i class="margin-right"></i>2019</h6><br>
-        </div>
-      </div>
+h3{
+  color:  #D79128;
+}
 
-      <div class="card color-white">
-        <h2 class="color-text-grey padding-16"><i class="fas fa-graduation-cap fa-fw margin-right text-xxlarge color-text-teal"></i>Education</h2>
-        <div class="card">
-          <h5 class="opacity"><b>University of Abertay Dundee</b></h5>
-          <h6 class="color-text-teal"><i class="fas fa-calendar fa-fw margin-right"></i>2005 - 2009</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-    </article>
-  </main>
-  <footer>
-    <small>
-      Copyright 2020. All rights reserved.
-    </small>
-    <ul class="nodecor">
-        <li><i alt="Linkedin" class="fab fa-linkedin-in"></i></li>
-        <li><i alt="Twitter" class="fab fa-twitter"></i></li>
-        <li><i alt="Facebook" class="fab fa-facebook-f"></i></li>
-    </ul>
-  </footer>
-</section>
-</body>
+section{
+  padding: 16px;
+}
+
+.techskills li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.square > li {
+  list-style-type: square;
+}
+
+.pills {
+  display: flex;
+  justify-content: center;
+}
+
+.pills > li {
+  border-radius: 16px;
+  background-color: #D9EBF2;
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+  padding: 8px 16px 8px 16px;
+  width: auto;
+}
+
+.line > li {
+  padding: 0 0 20px 50px;
+  position: relative;
+  list-style-type: none;
+}
+
+.line > li:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+}
+
+.techskills li:after {
+  top: auto;
+}
+
+.line > li:before {
+  position: absolute;
+  left: 13px;
+  content: "";
+  height: 100%;
+  border-left: 2px solid #000;
+}
+
+.techskills li:before {
+  top: 50%;
+}
+
+.line > li:last-of-type:before {
+  border: none;
+}
+
+i {
+  margin-left: 16px;
+}
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="profile">
+        <h1>Bryan Morgan</h1>
+        <h2>Systems Administrator</h2>
+        <ul style="float: right; text-align: end;">
+          <li>lilcuddlymouse@gmail.com<i class="fas fa-envelope"></i></li>
+          <li>(619) 325-7199<i class="fas fa-mobile-alt"></i></li>
+          <li>Alton, IL<i class="fas fa-map-marker-alt"></i></li>
+          <li>linkedin.com/in/bryan-morgan-692328177<i class="fab fa-linkedin-in"></i></li>
+        </ul>
+        <p>A customer oriented and self-motivated IT expert with proven and tested innovation and trouble-shooting skills.</p>
+      </section>
+      <section class="techskills">
+        <h1>Technical Skills</h1>
+        <hr>
+        <ul class="line">
+          <li>
+            <h4>Programming Skills</h4>
+            <ul class="pills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>C++</li>
+            </ul>
+          </li>
+          <li>
+            <h4>Operation Systems</h4>
+            <ul class="pills">
+              <li>Microsoft Server 2016</li>
+              <li>Microsoft Windows 10</li>
+              <li>Ubuntu Linux</li>
+              <li>Gentoo Linux</li>
+            </ul>
+          </li>
+          <li>
+            <h4>Design</h4>
+            <ul class="pills">
+              <li>GIMP</li>
+              <li>Blender 3D</li>
+              <li>Inkscape</li>
+            </ul>
+          </li>
+          <li>
+            <h4>Middleware</h4>
+            <ul class="pills">
+              <li>Apache</li>
+              <li>Sharepoint</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="workexp">
+        <h1>Work Experience</h1>
+        <hr>
+        <ul class="line">
+          <li>
+            <h2>Systems Administrator/GRRIPS Technician</h2>
+            <h3>TEKSystems Inc</h3>
+            <p>05/2020 - Present</p>
+            <p>Scott AFB, IL</p>
+            <p>A technology focused contracting company</p>
+            <h4>Achievements/Tasks</h4>
+            <ul class="square">
+              <li>Schedule and monitor system backups</li>
+              <li>Maintain virtual machines in VM Horizon.</li>
+              <li>Provide assistance to customers over the telephone and in person.</li>
+              <li>Manage users and objects in active directory.</li>
+              <li>Maintain Microsoft Windows 10 and Server 2016 systems.</li>
+            </ul>
+          </li>
+          <li>
+            <h2>Environmental Science Laboratory Analyst</h2>
+            <h3>Teklabs Inc</h3>
+            <p>09/2019 - 12/2019</p>
+            <p>Collinsville, IL</p>
+            <p>Environmental testing facility</p>
+            <h4>Achievements/Tasks</h4>
+            <ul class="square">
+              <li>Conducted Total Organic Halide and Adsorbable Organic Halide analysis on over 100 water and soil samples.</li>
+              <li>Performed Gas spectrometer analysis of over 50 oil and water samples.</li>
+              <li>Reduced risk of sample contamination by improving site cleanliness and improving maintenance standards of equipment.</li>
+            </ul>
+          </li>
+          <li>
+            <h2>Operations and Assistant Contract Technical Representative</h2>
+            <h3>Naval Operational Support Command Kansas City, US Navy</h3>
+            <p>04/2016 - 06/2019</p>
+            <p>Kansas City, KS</p>
+            <h4>Achievements/Tasks</h4>
+            <ul class="square">
+              <li>Developed more efficient methods of tracking training objectives and travel expenses while overseeing Defense Travel System usage.</li>
+              <li>Ensured at least 95% uptime for 30+ desktop computers and 8 laptops connected to the Navy and Marine Corps Intranet by performing repairs and elevating tickets as required.</li>
+              <li>Administered Sharepoint page and ensured compliance with US Navy Reserve regulations.</li>
+              <li>Training objective tracking for 300+ soldiers.</li>
+              <li>Government Travel Credit Card administration for 300+ soldiers to ensure compliance in accordance with Joint Travel Regulations and DoD Financial Management Regulation.</li>
+            </ul>
+          </li>
+          <li>
+            <h2>Landing Craft Navigator</h2>
+            <h3>US Navy</h3>
+            <p>07/2014 - 05/2016</p>
+            <h4>Achievements/Tasks</h4>
+            <ul class="square">
+              <li>Created and reviewed plans prior to getting underway.</li>
+              <li>Ensured all charts onboard were up to date with the latest notice to mariners and local notice to mariners.</li>
+              <li>Operated and maintained fire-fighting and dewatering equipment to include handheld CO2 fire extinguisher bottles, watertight doors and hatches, engine-room halon fire extinguishers, personal firefighting equipment and P100 dewatering pump.</li>
+              <li>Conducted regular training for 25+ members of the military on firefighting and dewatering procedures. Ensured that all military members met or exceeded training standards.</li>
+              <li>Accountable for safe navigation of assigned LCU during amphibious operations. Ensured mission was met in a safe and timely manner.</li>
+              <li>Provided daily mission briefings to the commanding officer along with developing powerpoint slides and visuals for use in each days briefings.</li>
+            </ul>
+          </li>
+          <li>
+            <h2>Quartermaster</h2>
+            <h3>US Navy</h3>
+            <p>09/2012 - 07/2014</p>
+            <h4>Achievements/Tasks</h4>
+            <ul class="square">
+              <li>Ensured mission readiness by conducting routine maintenance of the navigation systems.</li>
+              <li>Educated 3 subordinate quartermasters in job skills improving overall work efficiency and improving their promotion chances.</li>
+              <li>Nautical chart and publication inventory and maintenance.</li>
+              <li>Solved a difficult issue with syncing of digital nautical charts which resulted in allowing the US Navy to meet critical mission goals and save considerable money that would have been lost if mission had to be cancelled.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="softskills">
+        <h1>Soft Skills</h1>
+        <hr>
+        <ul class="pills">
+          <li>Critical Thinking</li>
+          <li>Adaptibility</li>
+          <li>Problem Solving</li>
+          <li>Leadership</li>
+        </ul>
+      </section>
+      <section class="education">
+        <h1>Education</h1>
+        <hr>
+        <ul>
+          <li>
+            <h2>BSc of Computer Games Technology</h2>
+            <p>University of Abertay Dundee</p>
+            <p>2005-2009</p>
+          </li>
+        </ul>
+      </section>
+      <section class="language">
+        <h1>Languages</h1>
+        <hr>
+        <ul class="pills">
+          <li>English 5/5</li>
+          <li>Mandarin 2/5</li>
+          <li>Spanish 2/5</li>
+          <li>German 2/5</li>
+          <li>French 2/5</li>
+        </ul>
+      </section>
+      <section class="certificates">
+        <h1>Certificates</h1>
+        <hr>
+        <ul>
+          <li>CompTIA Security+ CE (09/2019 - 09/2022)</li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
